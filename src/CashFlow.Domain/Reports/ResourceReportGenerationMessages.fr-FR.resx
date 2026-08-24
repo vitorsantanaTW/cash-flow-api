@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+
+  <data name="AMOUNT" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="TITLE" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DATE" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PAYMENT_TYPE" xml:space="preserve">
+    <value>Type de paiement</value>
+  </data>
+    <data name="EXPENSES_FOR" xml:space="preserve">
+    <value>Dépenses pour</value>
+  </data>
+    <data name="TOTAL_SPENT_IN" xml:space="preserve">
+    <value>Total dépensé en {0}</value>
+  </data>
+</root>

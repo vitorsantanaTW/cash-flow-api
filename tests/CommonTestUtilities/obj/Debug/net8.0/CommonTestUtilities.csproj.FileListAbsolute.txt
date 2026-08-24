@@ -1,0 +1,15 @@
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.deps.json
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.AssemblyReference.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.AssemblyInfoInputs.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.AssemblyInfo.cs
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.CoreCompileInputs.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.CopyComplete
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/refint/CommonTestUtilities.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/Debug/net8.0/ref/CommonTestUtilities.dll

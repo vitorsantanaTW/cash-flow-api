@@ -1,0 +1,11 @@
+POST http://localhost:5160/api/Expenses
+Accept-Language: fr-FR
+Content-Type: application/json
+
+{
+  "title": "",
+  "description": "string",
+  "amount": 0,
+  "date": "2029-07-16T11:26:43.241Z",
+  "paymentType": 111
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+
+  <data name="UNKNOWN_ERROR" xml:space="preserve">
+    <value>Une erreur inconnue s'est produite.</value>
+  </data>
+
+  <data name="TITLE_REQUIRED" xml:space="preserve">
+    <value>Le titre est obligatoire.</value>
+  </data>
+
+  <data name="AMOUNT_GREATER_THAN_ZERO" xml:space="preserve">
+    <value>Le montant doit être supérieur à zéro.</value>
+  </data>
+
+  <data name="DATE_CANNOT_BE_IN_THE_FUTURE" xml:space="preserve">
+    <value>La date ne peut pas être dans le futur.</value>
+  </data>
+
+  <data name="INVALID_PAYMENT_TYPE" xml:space="preserve">
+    <value>Type de paiement invalide.</value>
+  </data>
+  <data name="EXPENSE_NOT_FOUND" xml:space="preserve">
+    <value>Dépense introuvable.</value>
+  </data>
+</root>

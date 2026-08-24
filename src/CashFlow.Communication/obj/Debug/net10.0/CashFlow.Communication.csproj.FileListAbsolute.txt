@@ -1,0 +1,11 @@
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/bin/Debug/net10.0/CashFlow.Communication.deps.json
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/bin/Debug/net10.0/CashFlow.Communication.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/bin/Debug/net10.0/CashFlow.Communication.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/CashFlow.Communication.AssemblyInfoInputs.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/CashFlow.Communication.AssemblyInfo.cs
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/CashFlow.Communication.csproj.CoreCompileInputs.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/CashFlow.Communication.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/refint/CashFlow.Communication.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/CashFlow.Communication.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/Debug/net10.0/ref/CashFlow.Communication.dll

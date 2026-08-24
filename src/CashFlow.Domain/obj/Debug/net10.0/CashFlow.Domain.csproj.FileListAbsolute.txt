@@ -1,0 +1,11 @@
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/bin/Debug/net10.0/CashFlow.Domain.deps.json
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/bin/Debug/net10.0/CashFlow.Domain.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/bin/Debug/net10.0/CashFlow.Domain.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/CashFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/CashFlow.Domain.AssemblyInfoInputs.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/CashFlow.Domain.AssemblyInfo.cs
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/CashFlow.Domain.csproj.CoreCompileInputs.cache
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/CashFlow.Domain.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/refint/CashFlow.Domain.dll
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/CashFlow.Domain.pdb
+/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/Debug/net10.0/ref/CashFlow.Domain.dll
