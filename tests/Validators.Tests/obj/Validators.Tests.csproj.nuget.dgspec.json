@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/Validators.Tests/Validators.Tests.csproj": {}
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/Validators.Tests/Validators.Tests.csproj": {}
   },
   "projects": {
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/CashFlow.Application.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/CashFlow.Application.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj",
         "projectName": "CashFlow.Application",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/CashFlow.Application.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -24,19 +24,20 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj"
               },
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj"
               },
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -45,10 +46,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
@@ -102,18 +110,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "projectName": "CashFlow.Communication",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -126,6 +134,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -134,10 +143,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -155,18 +171,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj",
         "projectName": "CashFlow.Domain",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -179,6 +195,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -187,10 +204,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -208,18 +232,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj",
         "projectName": "CashFlow.Exception",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -232,6 +256,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -240,10 +265,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -261,18 +293,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
         "projectName": "CashFlow.Infrastructure",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Infrastructure/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -285,10 +317,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj"
               }
             }
           }
@@ -297,10 +330,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "BCrypt.Net-Next": {
@@ -346,18 +386,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj",
         "projectName": "CommonTestUtilities",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -370,10 +410,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj"
               }
             }
           }
@@ -382,10 +423,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Bogus": {
@@ -409,18 +457,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/Validators.Tests/Validators.Tests.csproj": {
+    "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/Validators.Tests/Validators.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/Validators.Tests/Validators.Tests.csproj",
+        "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/Validators.Tests/Validators.Tests.csproj",
         "projectName": "Validators.Tests",
-        "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/Validators.Tests/Validators.Tests.csproj",
+        "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/Validators.Tests/Validators.Tests.csproj",
         "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-        "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/Validators.Tests/obj/",
+        "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/Validators.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -433,19 +481,20 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/CashFlow.Application.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/CashFlow.Application.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj"
               },
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Exception/CashFlow.Exception.csproj"
               },
-              "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj": {
-                "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj"
+              "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj": {
+                "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj"
               }
             }
           }
@@ -454,10 +503,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
@@ -497,7 +553,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Bogus/35.6.5": {
@@ -67,11 +67,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+      "projectUniqueName": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj",
       "projectName": "CommonTestUtilities",
-      "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+      "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj",
       "packagesPath": "/Users/vitorsantana/.nuget/packages/",
-      "outputPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/obj/",
+      "outputPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vitorsantana/.nuget/NuGet/NuGet.Config"
@@ -84,10 +84,11 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-              "projectPath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Communication/CashFlow.Communication.csproj"
+            "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+              "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Communication/CashFlow.Communication.csproj"
             }
           }
         }
@@ -96,10 +97,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Bogus": {
@@ -123,7 +131,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.129/libexec/sdk/8.0.129/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

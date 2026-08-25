@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FpMaj1mBokfv2tFVZ2AUfZ8S8u9ajD9vF5ZO0nN6L2wwyrVqjmKft0ZA3FyhOCPX8BjxbN11+dmrhsjuTR2fCg==",
+  "dgSpecHash": "bv4qawvS814=",
   "success": true,
-  "projectFilePath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Domain/CashFlow.Domain.csproj",
+  "projectFilePath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Domain/CashFlow.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

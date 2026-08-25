@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2O1z9t/24r313SHZsflDuMPXPsNu1Tq8ulseVB5dkr0MWE9ZFLSq06Gmkuogy8Us0gk86veB8f0rzYQxwzwYDg==",
+  "dgSpecHash": "c9tEzthk6yA=",
   "success": true,
-  "projectFilePath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/src/CashFlow.Application/CashFlow.Application.csproj",
+  "projectFilePath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj",
   "expectedPackageFiles": [
     "/Users/vitorsantana/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/vitorsantana/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",
@@ -70,8 +70,10 @@
     {
       "code": "NU1903",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/src/CashFlow.Application/CashFlow.Application.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

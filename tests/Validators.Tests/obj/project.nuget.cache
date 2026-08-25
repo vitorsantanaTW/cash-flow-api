@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AohpbGIAnWx7mlyzO3SRMgWhP1TwImXJQFS8dBUKJGkeHmFGNjHDNItoTJV71wgHLYVjrqwtaLe9K0Troi/yNA==",
+  "dgSpecHash": "HyliK5PEk1Q=",
   "success": true,
-  "projectFilePath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/Validators.Tests/Validators.Tests.csproj",
+  "projectFilePath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/Validators.Tests/Validators.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/vitorsantana/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/vitorsantana/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rmCD+jjmkWVSdeQ9k8fQ9Myw7eO+BzE91EnrCv/0nVt3ZcyXDi1mMUPuBhsGzIjtzCX4CGuO3LOY1Ph4Lb+rbw==",
+  "dgSpecHash": "WtKoidT5LZg=",
   "success": true,
-  "projectFilePath": "/Users/vitorsantana/Documents/c#_course/CompleteApi/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+  "projectFilePath": "/Users/vitorsantana/Documents/study/c#_projects/cash-flow-api/tests/CommonTestUtilities/CommonTestUtilities.csproj",
   "expectedPackageFiles": [
     "/Users/vitorsantana/.nuget/packages/bogus/35.6.5/bogus.35.6.5.nupkg.sha512"
   ],
