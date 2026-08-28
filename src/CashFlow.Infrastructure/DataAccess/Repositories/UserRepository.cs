@@ -12,6 +12,7 @@ internal class UserRepository : IUserReadOnlyRepository, IUserWriteOnlyRepositor
 
     public async Task<bool> ExistsActiveUserWithEmail(string email)
     {
+        Console.WriteLine($"Checking if active user exists with email: {email}");
        return await _dbContext.Users.AnyAsync(user => user.Email == email);
     }
 

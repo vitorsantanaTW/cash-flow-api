@@ -6,6 +6,8 @@ using CashFlow.Domain.Security.Cryptography;
 using CashFlow.Domain.Security.Tokens;
 using CashFlow.Exception.ExceptionsBase;
 
+namespace CashFlow.Application.UseCases.User.Login;
+
 public class DoLoginUseCase : IDoLoginUseCase
 {
     private readonly IUserReadOnlyRepository _userRepository;

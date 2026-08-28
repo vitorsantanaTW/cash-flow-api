@@ -18,6 +18,7 @@ public class LoginController : ControllerBase
     [FromBody] RequestLoginJson request
     )
    {
+    Console.WriteLine($"Login attempt for email: {request.Email}");
      var response  = await loginUseCase.Execute(request);
      return Ok(response);
    }
