@@ -10,16 +10,15 @@ namespace CashFlow.Api.Controllers;
 
 public class LoginController : ControllerBase
 {
-   [HttpPost]
-   [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status200OK)]
-   [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status401Unauthorized)]
-   public async Task<IActionResult> Login(
-    [FromServices] IDoLoginUseCase loginUseCase, 
+    [HttpPost]
+    [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status401Unauthorized)]
+    public async Task<IActionResult> Login(
+    [FromServices] IDoLoginUseCase loginUseCase,
     [FromBody] RequestLoginJson request
     )
-   {
-    Console.WriteLine($"Login attempt for email: {request.Email}");
-     var response  = await loginUseCase.Execute(request);
-     return Ok(response);
-   }
+    {
+        var response = await loginUseCase.Execute(request);
+        return Ok(response);
+    }
 }

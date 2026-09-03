@@ -1,4 +1,4 @@
-using ClosedXML.Excel;  
+using ClosedXML.Excel;
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Domain.Extensions;
@@ -19,9 +19,9 @@ public class GenerateExpenseReportExcelUseCase : IGenerateExpenseReportExcelUseC
     {
         var expenses = await _expenseReportRepository.GetByMonth(month);
 
-        if(expenses.Count == 0)
+        if (expenses.Count == 0)
         {
-           return [];
+            return [];
         }
 
         using var workbook = new XLWorkbook();
@@ -53,7 +53,7 @@ public class GenerateExpenseReportExcelUseCase : IGenerateExpenseReportExcelUseC
 
         var stream = new MemoryStream();
         workbook.SaveAs(stream);
-        
+
         return stream.ToArray();
     }
 

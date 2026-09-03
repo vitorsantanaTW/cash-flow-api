@@ -18,13 +18,13 @@ public class GetExpenseByIdUseCase : IGetExpenseByIdUseCase
 
     public async Task<ResponseExpenseJson> Execute(long id)
     {
-       var result = await _expensesRepository.GetById(id);
+        var result = await _expensesRepository.GetById(id);
 
-        if(result is null)
+        if (result is null)
         {
             throw new NotFoundException(ErrorMessages.ExpenseNotFound);
         }
 
-       return _mapper.Map<ResponseExpenseJson>(result);
+        return _mapper.Map<ResponseExpenseJson>(result);
     }
 }

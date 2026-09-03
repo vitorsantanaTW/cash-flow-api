@@ -9,7 +9,8 @@ using FluentValidation;
 using AutoMapper;
 
 namespace CashFlow.Application.UseCases.Expenses.Register;
-public class RegisterExpenseUseCase: IRegisterExpenseUseCase
+
+public class RegisterExpenseUseCase : IRegisterExpenseUseCase
 {
     private readonly IExpensesWriteOnlyRepository _repository;
     private readonly IUnitOfWork _unitOfWork;

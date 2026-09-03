@@ -15,8 +15,8 @@ public class DoLoginUseCase : IDoLoginUseCase
     private readonly IAccessTokenGenerator _tokenGenerator;
 
     public DoLoginUseCase(
-        IUserReadOnlyRepository userRepository, 
-        IPasswordEncrypt passwordEncrypt, 
+        IUserReadOnlyRepository userRepository,
+        IPasswordEncrypt passwordEncrypt,
         IAccessTokenGenerator tokenGenerator)
     {
         _userRepository = userRepository;
@@ -28,14 +28,14 @@ public class DoLoginUseCase : IDoLoginUseCase
     {
         var user = await _userRepository.GetActiveUserByEmail(request.Email);
 
-        if(user is null)
+        if (user is null)
         {
             throw new InvalidLoginException();
         }
 
         var validPassword = _passwordEncrypt.Verify(request.Password, user.Password);
 
-        if(!validPassword)
+        if (!validPassword)
         {
             throw new InvalidLoginException();
         }

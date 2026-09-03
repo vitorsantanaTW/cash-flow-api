@@ -4,11 +4,12 @@ using CashFlow.Communication.Responses;
 using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Api.Filters;
-public class ExceptionFilter: IExceptionFilter
+
+public class ExceptionFilter : IExceptionFilter
 {
     public void OnException(ExceptionContext context)
     {
-        if(context.Exception is CashFlowException)
+        if (context.Exception is CashFlowException)
         {
             HandleProjectException(context);
         }
@@ -21,7 +22,7 @@ public class ExceptionFilter: IExceptionFilter
     private void HandleProjectException(ExceptionContext context)
     {
         var cashFlowException = (CashFlowException)context.Exception;
-        
+
         context.HttpContext.Response.StatusCode = cashFlowException.StatusCode;
         var errorResponse = new ResponseErrorJson(cashFlowException.GetErrors());
 

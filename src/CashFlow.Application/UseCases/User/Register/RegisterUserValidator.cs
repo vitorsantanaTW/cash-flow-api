@@ -13,7 +13,7 @@ public class RegisterUserValidator : AbstractValidator<RequestRegisterUserJson>
 
         RuleFor(x => x.Email)
             .NotEmpty().WithMessage("Email is required.")
-            .EmailAddress().WithMessage("Invalid email format.");
+            .EmailAddress().When(user => !string.IsNullOrWhiteSpace(user.Email), applyConditionTo: ApplyConditionTo.CurrentValidator).WithMessage("Invalid email format.");
 
         RuleFor(x => x.Password).SetValidator(new PasswordValidator<RequestRegisterUserJson>());
     }

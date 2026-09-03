@@ -1,4 +1,5 @@
 namespace CashFlow.Application.UseCases.Expenses.Update;
+
 using CashFlow.Communication.Requests;
 public interface IUpdateExpenseUseCase
 {

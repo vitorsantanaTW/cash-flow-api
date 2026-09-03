@@ -32,7 +32,7 @@ public class ExpensesController : ControllerBase
     {
         var response = await useCase.Execute();
 
-        if(response.Expenses.Count == 0)
+        if (response.Expenses.Count == 0)
         {
             return NoContent();
         }
@@ -48,7 +48,7 @@ public class ExpensesController : ControllerBase
     {
         var response = await useCase.Execute(id);
 
-        if(response == null)
+        if (response == null)
         {
             return NotFound();
         }

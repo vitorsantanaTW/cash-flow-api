@@ -54,11 +54,11 @@ builder.Services.AddMvc(options =>
 
 var signingKey = builder.Configuration.GetValue<string>("Settings:Jwt:SigningKey");
 
-builder.Services.AddAuthentication(config => 
+builder.Services.AddAuthentication(config =>
 {
     config.DefaultAuthenticateScheme = "Bearer";
     config.DefaultChallengeScheme = "Bearer";
-}).AddJwtBearer(config => 
+}).AddJwtBearer(config =>
 {
     config.TokenValidationParameters = new TokenValidationParameters
     {

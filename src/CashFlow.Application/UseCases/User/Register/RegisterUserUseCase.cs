@@ -18,10 +18,10 @@ public class RegisterUserUseCase : IRegisterUserUseCase
     private readonly IAccessTokenGenerator _accessTokenGenerator;
 
     public RegisterUserUseCase(
-        IMapper mapper, 
-        IPasswordEncrypt passwordEncrypt, 
-        IUserReadOnlyRepository userReadOnlyRepository, 
-        IUserWriteOnlyRepository userWriteOnlyRepository, 
+        IMapper mapper,
+        IPasswordEncrypt passwordEncrypt,
+        IUserReadOnlyRepository userReadOnlyRepository,
+        IUserWriteOnlyRepository userWriteOnlyRepository,
         IUnitOfWork unitOfWork,
         IAccessTokenGenerator accessTokenGenerator
         )
@@ -60,14 +60,14 @@ public class RegisterUserUseCase : IRegisterUserUseCase
 
         var emailExists = await _userReadOnlyRepository.ExistsActiveUserWithEmail(request.Email);
 
-        if(emailExists)
+        if (emailExists)
         {
-           result.Errors.Add(new ValidationFailure(string.Empty, "Email already exists"));
+            result.Errors.Add(new ValidationFailure(string.Empty, "Email already exists"));
         }
 
-        if(!result.IsValid)
+        if (!result.IsValid)
         {
-            var errorMessages = result.Errors.Select(e => e.ErrorMessage).ToList()  ;
+            var errorMessages = result.Errors.Select(e => e.ErrorMessage).ToList();
             throw new ErrorOnValidationException(errorMessages);
         }
     }

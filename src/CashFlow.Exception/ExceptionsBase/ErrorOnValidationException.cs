@@ -1,6 +1,6 @@
 using CashFlow.Exception.ExceptionsBase;
 using System.Net;
-public class ErrorOnValidationException: CashFlowException
+public class ErrorOnValidationException : CashFlowException
 {
     private readonly List<string> _errors;
     public ErrorOnValidationException(List<string> errorMessages) : base(string.Empty)

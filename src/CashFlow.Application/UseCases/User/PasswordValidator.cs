@@ -4,7 +4,7 @@ using FluentValidation.Validators;
 
 namespace CashFlow.Application.UseCases.User.Register;
 
-public partial class PasswordValidator<T>: PropertyValidator<T, string>
+public partial class PasswordValidator<T> : PropertyValidator<T, string>
 {
     private const string ERROR_MESSAGE_KEY = "ErrorMessage";
     public override string Name => "PasswordValidator";
@@ -16,24 +16,24 @@ public partial class PasswordValidator<T>: PropertyValidator<T, string>
 
     public override bool IsValid(ValidationContext<T> context, string password)
     {
-        if(string.IsNullOrWhiteSpace(password))
+        if (string.IsNullOrWhiteSpace(password))
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, "Password is required.");
             return false;
         }
 
-        if(password.Length < 8)
+        if (password.Length < 8)
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, "Password must be at least 8 characters long.");
             return false;
         }
-        
+
         var hasUpperCase = UpperCase().IsMatch(password);
         var hasLowerCase = LowerCase().IsMatch(password);
         var hasDigit = Digit().IsMatch(password);
         var hasSpecialChar = SpecialChar().IsMatch(password);
 
-        if(!hasUpperCase || !hasLowerCase || !hasDigit || !hasSpecialChar)
+        if (!hasUpperCase || !hasLowerCase || !hasDigit || !hasSpecialChar)
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character.");
             return false;

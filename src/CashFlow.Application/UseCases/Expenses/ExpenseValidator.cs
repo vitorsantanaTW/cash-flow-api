@@ -3,7 +3,7 @@ using CashFlow.Communication.Requests;
 using CashFlow.Exception.ExceptionsBase;
 namespace CashFlow.Application.UseCases.Expenses.Register;
 
-public class ExpenseValidator: AbstractValidator<RequestExpenseJson>
+public class ExpenseValidator : AbstractValidator<RequestExpenseJson>
 {
     public ExpenseValidator()
     {

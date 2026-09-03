@@ -15,7 +15,7 @@ public class ReportController : ControllerBase
     {
         byte[] file = await useCase.Execute(month);
 
-        if(file.Length == 0)
+        if (file.Length == 0)
         {
             return NoContent();
         }
@@ -29,7 +29,7 @@ public class ReportController : ControllerBase
     public async Task<IActionResult> GetPdf([FromServices] IGenerateExpensesReportPdfUseCase useCase, [FromQuery] DateOnly month)
     {
         byte[] file = await useCase.Execute(month);
-        if(file.Length == 0)
+        if (file.Length == 0)
         {
             return NoContent();
         }

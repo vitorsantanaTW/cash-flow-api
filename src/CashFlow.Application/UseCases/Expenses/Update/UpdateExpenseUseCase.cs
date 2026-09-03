@@ -27,7 +27,7 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
 
         var expense = await _expenseRepository.GetById(id);
 
-        if(expense is null)
+        if (expense is null)
         {
             throw new NotFoundException(ErrorMessages.ExpenseNotFound);
         }
@@ -44,7 +44,7 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
     {
         var validator = new ExpenseValidator();
         var result = validator.Validate(request);
-        
+
         if (!result.IsValid)
         {
             var errorMessages = result.Errors.Select(e => e.ErrorMessage).ToList();

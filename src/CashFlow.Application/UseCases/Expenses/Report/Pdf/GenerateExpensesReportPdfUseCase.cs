@@ -14,7 +14,7 @@ namespace CashFlow.Application.UseCases.Expenses.Report.Pdf;
 public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCase
 {
     private const string CURRENCY_SYMBOL = "$";
-    private const int  HEIGHT_OF_TABLE_ROW = 25;
+    private const int HEIGHT_OF_TABLE_ROW = 25;
     private const int LEFT_INDENT_OF_TABLE_CELL = 20;
     private readonly IExpensesReadOnlyRepository _expenseRepository;
 
@@ -28,10 +28,10 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
     public async Task<byte[]> Execute(DateOnly month)
     {
         var expenses = await _expenseRepository.GetByMonth(month);
-        
-        if(expenses.Count == 0)
+
+        if (expenses.Count == 0)
         {
-            
+
             return Array.Empty<byte>();
         }
 
@@ -51,8 +51,8 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
             var row = table.AddRow();
             row.Height = HEIGHT_OF_TABLE_ROW;
 
-           AddExpenseTitle(row.Cells[0], expense.Title);
-           AddHeaderForAmount(row.Cells[3]);
+            AddExpenseTitle(row.Cells[0], expense.Title);
+            AddHeaderForAmount(row.Cells[3]);
 
             row = table.AddRow();
             row.Height = HEIGHT_OF_TABLE_ROW;
@@ -71,16 +71,16 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
             if (!string.IsNullOrEmpty(expense.Description))
             {
-               var descriptionRow = table.AddRow();
-               descriptionRow.Height = HEIGHT_OF_TABLE_ROW;
-               descriptionRow.Cells[0].AddParagraph(expense.Description);
-               descriptionRow.Cells[0].Format.Font = new Font { Name = FontHelper.WORK_SANS_REGULAR, Size = 10, Color = ColorsHelper.BLACK };
-               descriptionRow.Cells[0].Shading.Color = ColorsHelper.GREEN_LIGHT;
-               descriptionRow.Cells[0].VerticalAlignment = VerticalAlignment.Center;
-               descriptionRow.Cells[0].MergeRight = 2;
-               descriptionRow.Cells[0].Format.LeftIndent = LEFT_INDENT_OF_TABLE_CELL;
+                var descriptionRow = table.AddRow();
+                descriptionRow.Height = HEIGHT_OF_TABLE_ROW;
+                descriptionRow.Cells[0].AddParagraph(expense.Description);
+                descriptionRow.Cells[0].Format.Font = new Font { Name = FontHelper.WORK_SANS_REGULAR, Size = 10, Color = ColorsHelper.BLACK };
+                descriptionRow.Cells[0].Shading.Color = ColorsHelper.GREEN_LIGHT;
+                descriptionRow.Cells[0].VerticalAlignment = VerticalAlignment.Center;
+                descriptionRow.Cells[0].MergeRight = 2;
+                descriptionRow.Cells[0].Format.LeftIndent = LEFT_INDENT_OF_TABLE_CELL;
 
-               row.Cells[3].MergeDown = 1;
+                row.Cells[3].MergeDown = 1;
             }
 
             AddWhiteSpace(table);
@@ -160,12 +160,12 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
     private byte[] RenderDocument(Document document)
     {
-       var render = new PdfDocumentRenderer
-       {
-           Document = document
-       };
+        var render = new PdfDocumentRenderer
+        {
+            Document = document
+        };
 
-       render.RenderDocument();
+        render.RenderDocument();
 
         using var stream = new MemoryStream();
         render.PdfDocument.Save(stream, false);
@@ -175,7 +175,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
     private void CreatedHeaderWithProfilePhotoAndName(Section page)
     {
-         var table = page.AddTable();
+        var table = page.AddTable();
 
         table.AddColumn();
         table.AddColumn("300");
@@ -198,9 +198,9 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
         row.Cells[1].VerticalAlignment = VerticalAlignment.Center;
     }
 
-    private void CreateTotalSpentSection(Section page, DateOnly month,  decimal totalExpenses)
+    private void CreateTotalSpentSection(Section page, DateOnly month, decimal totalExpenses)
     {
-         var paragraph = page.AddParagraph();
+        var paragraph = page.AddParagraph();
         paragraph.Format.SpaceBefore = "40";
         paragraph.Format.SpaceAfter = "40";
 
@@ -216,7 +216,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
     private Table CreateExpenseTable(Section page)
     {
         var table = page.AddTable();
-        
+
         table.AddColumn("195").Format.Alignment = ParagraphAlignment.Left;
         table.AddColumn("80").Format.Alignment = ParagraphAlignment.Center;
         table.AddColumn("120").Format.Alignment = ParagraphAlignment.Center;

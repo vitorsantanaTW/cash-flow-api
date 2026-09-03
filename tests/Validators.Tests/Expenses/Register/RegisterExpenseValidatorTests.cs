@@ -1,4 +1,5 @@
 namespace Validators.Tests.Expenses.Register;
+
 using CashFlow.Application.UseCases.Expenses;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CommonTestUtilities.Requests;
@@ -15,7 +16,7 @@ public class RegisterExpenseValidatorTests
     {
         var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
-        
+
         var result = validator.Validate(request);
 
         result.IsValid.ShouldBeTrue();
@@ -30,7 +31,7 @@ public class RegisterExpenseValidatorTests
     {
         var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
-        
+
         request.Title = title!;
 
         var result = validator.Validate(request);
@@ -46,7 +47,7 @@ public class RegisterExpenseValidatorTests
     {
         var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
-        
+
         request.Date = DateTime.UtcNow.AddDays(1);
 
         var result = validator.Validate(request);
@@ -65,7 +66,7 @@ public class RegisterExpenseValidatorTests
     {
         var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
-        
+
         request.PaymentType = paymentType;
 
         var result = validator.Validate(request);
@@ -80,10 +81,10 @@ public class RegisterExpenseValidatorTests
     [InlineData(0)]
     [InlineData(-1)]
     public void Error_Amount_LessThanOrEqualToZero(decimal amount)
-    { 
+    {
         var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
-        
+
         request.Amount = amount;
 
         var result = validator.Validate(request);

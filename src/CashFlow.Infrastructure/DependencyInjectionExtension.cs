@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CashFlow.Domain.Security.Cryptography;
 using CashFlow.Domain.Repositories.User;
 using CashFlow.Domain.Security.Tokens;
+using CashFlow.Infrastructure.Security.Tokens;
 
 
 namespace CashFlow.Infrastructure;
@@ -24,10 +25,10 @@ public static class DependencyInjectionExtension
 
     private static void AddToken(IServiceCollection services, IConfiguration configuration)
     {
-      var expirationTimeMinutes = configuration.GetValue<int>("Settings:Jwt:ExpiresInMinutes");
-      var signingKey = configuration.GetValue<string>("Settings:Jwt:SigningKey");
+        var expirationTimeMinutes = configuration.GetValue<int>("Settings:Jwt:ExpiresInMinutes");
+        var signingKey = configuration.GetValue<string>("Settings:Jwt:SigningKey");
 
-      services.AddScoped<IAccessTokenGenerator>(provider => new JwtTokenGenerator(signingKey!, (uint)expirationTimeMinutes));
+        services.AddScoped<IAccessTokenGenerator>(provider => new JwtTokenGenerator(signingKey!, (uint)expirationTimeMinutes));
     }
 
     private static void AddRepositories(IServiceCollection services)
@@ -41,9 +42,9 @@ public static class DependencyInjectionExtension
     }
     private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
     {
-       var connectionString = configuration.GetConnectionString("Connection");
-       var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
+        var connectionString = configuration.GetConnectionString("Connection");
+        var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
 
-       services.AddDbContext<CashFlowDbContext>(options => options.UseMySql(connectionString!, serverVersion));
+        services.AddDbContext<CashFlowDbContext>(options => options.UseMySql(connectionString!, serverVersion));
     }
 }
